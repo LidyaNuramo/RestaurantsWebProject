@@ -1,0 +1,43 @@
+body {
+	font-family:'Century Gothic'; 
+	font-size:10.0pt; 
+	background-image:url(../images/pattern 2.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+	padding:0px 0px 0px 0px;
+	position: relative;
+	z-index: -1;
+	opacity: 0.9;
+}
+
+#navbar {
+  overflow: visible;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+#carouselExampleIndicators{
+	z-index: 0;
+}
+
+.FAQ,.Contacts {
+	font-family:'verdana';
+	font-size:16.0pt;
+	float:center;
+	border:none;
+	margin-top:50px;
+}
+
